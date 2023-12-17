@@ -1,0 +1,96 @@
+.head{
+  display: flex;
+}
+
+.ellipse {
+  margin-left: 191px;
+  margin-top: 51px;
+  width: 41px;
+  height: 41px;
+  background-color: #458ff6;
+  border-radius: 20.5px;
+  }
+
+.logo-letter{
+  display: block;
+  margin-left: 12px;
+  margin-top: 4px;
+  width: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 26px;
+  letter-spacing: 0;
+  }
+
+.title{
+  margin-top: 55px;
+  margin-left: 12px;
+  font-weight: 700;
+  color: #233248;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  }
+
+.ellipse:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.sub-header{
+  display: flex;
+}
+.left-side{
+  display: block;
+  margin-left: 191px;
+  margin-right: 127px;
+}
+.sub-header-illustration {
+  width: 693px;
+  height: 598px;
+  object-fit: cover;
+  }
+
+.virtual-healthcare {
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 56px;
+}
+
+.text-sub-header {
+  width: 427px;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.right-side{
+  position: relative;
+  bottom: 100px;
+  right: 30px;
+}
+
+.consult-btn {
+  width: 200px;
+  height: 56px;
+  background-color: #458ff6;
+  border-radius: 55px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.consult-btn:hover {
+  border-color: #646cff;
+}
+
+.element{
+  margin-top: 57px;
+  margin-bottom: 8px;
+}
+
