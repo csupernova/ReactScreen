@@ -1,7 +1,7 @@
 const ButtonService: React.FC<{}>= () => {
 
     return (
-        <div className="wrap-btn">
+        <div className="wrap-btn-services">
             <button className="btn-learnmore">Learn more</button>
         </div>
     )
