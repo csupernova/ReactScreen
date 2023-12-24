@@ -2,16 +2,16 @@ import './css/App.css'
 import Header from './components/Header.tsx'
 import SubHeader from './components/SubHeader.tsx'
 import DescriptionServices from './components/DescriptionServices.tsx'
-import CardService, {CardProps} from './components/CardService.tsx'
 import ButtonService from './components/ButtonService.tsx'
 import ProvidersInfo from './components/Providers.tsx'
 import MobileApp from './components/MobileApp.tsx'
 import Slider, {CommentInfo} from './components/Slider.tsx'
 import ManageArticles, {ArticleInfo} from './components/ManageArticle.tsx'
 import Footer from './components/Footer.tsx'
+import ManageCardServices, {CardInfo} from './components/ManageCardServices.tsx'
 
 function App() {
-const cardsData: CardProps[] = [
+const cardsData: CardInfo[] = [
   {image: '/src/assets/images/service1.svg', title: "Search doctor", description: "Choose your doctor from thousands of specialist, general, and trusted hospitals"},
   {image: '/src/assets/images/service2.png', title: "Online pharmacy", description: "Buy your medicines with our mobile application with a simple delivery system"},
   {image: '/src/assets/images/service3.svg', title: "Consultation", description:"Free consultation with our trusted doctors and get the best recomendations"},
@@ -43,14 +43,7 @@ const articlesData: ArticleInfo[] = [
       <Header />
       <SubHeader />
       <DescriptionServices />
-      <div className='background-class'>
-        <div className="array-cards">
-          {cardsData.map((card, index) => (
-            <CardService key={index} {...card} />
-          ))}
-        </div>
-      </div>
-      <ButtonService />
+      <ManageCardServices data={cardsData} />
       <ProvidersInfo />
       <MobileApp />
       <Slider data={commentsData} />

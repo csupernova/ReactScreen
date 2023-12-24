@@ -1,10 +1,7 @@
-interface CardProps{
-    image: string;
-    title: string;
-    description: string;
-}
+import { CardInfo } from "./ManageCardServices";
 
-const CardServices: React.FC<CardProps>= ({image, title, description}) => {
+
+const CardServices: React.FC<CardInfo>= ({image, title, description}) => {
 
     return (
             <div className="card">
@@ -15,4 +12,3 @@ const CardServices: React.FC<CardProps>= ({image, title, description}) => {
     )
 }
 export default CardServices;
-export type { CardProps };

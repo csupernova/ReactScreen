@@ -13,7 +13,7 @@ const ProvidersInfo: React.FC<{}> = () => {
                         We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver
                         </p>
                         <div className="wrap-btn">
-                            <button className="btn-learnmore">Learn more</button>
+                            <button className="btn-learnmore"><span className='btn-text'>Learn more</span></button>
                         </div>
                     </div>
             </div>

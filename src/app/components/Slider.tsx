@@ -34,8 +34,11 @@ const Slider: React.FC<SliderProps<CommentInfo>> = ({data}) => {
   return (
     <div>
       <div className="slider-card">
+      <img className='elem-slider' src='/src/assets/images/elem.svg'></img>
         <div className='wrap-card-header'>
-            <div className="slider-card-title">What our customer are saying</div>
+            <div className="slider-card-title">
+              What our customer are saying
+              </div>
             <div className="wrap-divider-slider"><div className="divider-white"></div></div>
         </div>
         <div className='comment-block'>
