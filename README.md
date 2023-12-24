@@ -22,6 +22,7 @@
 ### Технологии
 
 - npm 10.2.3
+- NodeJs 20.10.0
 - React 18.2.0
 - TypeScript 5.2.2
 - Vite 5.0.8
