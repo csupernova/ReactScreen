@@ -8,6 +8,7 @@ import ProvidersInfo from './components/Providers.tsx'
 import MobileApp from './components/MobileApp.tsx'
 import Slider, {CommentInfo} from './components/Slider.tsx'
 import ManageArticles, {ArticleInfo} from './components/ManageArticle.tsx'
+import Footer from './components/Footer.tsx'
 
 function App() {
 const cardsData: CardProps[] = [
@@ -54,6 +55,7 @@ const articlesData: ArticleInfo[] = [
       <MobileApp />
       <Slider data={commentsData} />
       <ManageArticles data={articlesData} />
+      <Footer />
     </>
   )
 }
