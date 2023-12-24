@@ -1,0 +1,33 @@
+
+.btn-text{
+  font-weight: 700;
+  color: #458ff6;
+  font-size: 18px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.btn-learnmore:active{
+  transform: scale(0.9);
+}
+
+.btn-view-all:active{
+  transform: scale(0.9);
+}
+
+.consult-btn:active{
+  transform: scale(0.9);
+}
+
+.btn-learnmore:hover {
+  filter: drop-shadow(0 0 1em #aaaffeaa);
+}
+
+.btn-view-all:hover {
+  filter: drop-shadow(0 0 1em #aaaffeaa);
+}
+
+.consult-btn:hover {
+  filter: drop-shadow(0 0 1em #aaaffeaa);
+}
+

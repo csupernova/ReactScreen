@@ -1,0 +1,60 @@
+.sub-header{
+    display: flex;
+}
+
+.left-side-virtual-healthcare{
+    display: block;
+    margin-left: 191px;
+    margin-right: 127px;
+}
+
+.sub-header-illustration {
+    width: 693px;
+    height: 598px;
+    object-fit: cover;
+}
+  
+.virtual-healthcare {
+    font-weight: 700;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 56px;
+}
+  
+.text-sub-header {
+    width: 427px;
+    font-weight: 300;
+    color: #7c7987;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+  
+.right-side-virtual-healthcare{
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+}
+  
+.consult-btn {
+    width: 200px;
+    height: 56px;
+    background-color: #458ff6;
+    border-radius: 55px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    border-width: 0;
+}
+  
+.consult-btn:hover {
+    border-color: #646cff;
+}
+  
+.element{
+    margin-top: 57px;
+    margin-bottom: 8px;
+}
