@@ -10,9 +10,11 @@
 .btn-learnmore:active{
   transform: scale(0.9);
 }
+
 .btn-view-all:active{
   transform: scale(0.9);
 }
+
 .consult-btn:active{
   transform: scale(0.9);
 }
@@ -20,35 +22,12 @@
 .btn-learnmore:hover {
   filter: drop-shadow(0 0 1em #aaaffeaa);
 }
+
 .btn-view-all:hover {
   filter: drop-shadow(0 0 1em #aaaffeaa);
 }
+
 .consult-btn:hover {
   filter: drop-shadow(0 0 1em #aaaffeaa);
 }
-
-/*___________HEADER_________________*/
-
-
-/*___________SUB-HEADER_________________*/
-
-
-/*___________SERVICES_________________*/
-
-
-
-/*___________PROVIDERS_________________*/
-
-
-
-/*___________MOBILE-APP_________________*/
-
-
-
-/*_________________________SLIDER_________________________*/
-
-
-/*________________________ARTICLES___________________________________*/
-
-/*_____________________FOOOOTERRR______________________*/
 

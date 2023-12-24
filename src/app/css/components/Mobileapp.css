@@ -2,37 +2,36 @@
     margin-top: 126px;
     margin-left: 240px;
     display: flex;
-  }
+}
   
-  .dwnld-mobile{
+.dwnld-mobile{
     width: 254px;
     font-weight: 700;
     color: #000000;
     font-size: 36px;
     letter-spacing: 0;
     line-height: 48px;
-  }
+}
   
-  .dwnld-vector
-  {
+.dwnld-vector{
     margin-left: 15px;
-  }
+}
   
-  .text-mobile-app{
+.text-mobile-app{
     width: 420px;
     font-weight: 300;
     color: #7c7987;
     font-size: 18px;
     letter-spacing: 0;
     line-height: 30px;
-  }
+}
   
-  .left-side-mobile-app{
+.left-side-mobile-app{
     margin-right: 71px;
-  }
+}
   
-  .right-side-mobile-app{
+.right-side-mobile-app{
     margin-right: 164px;
     width: 665px;
     height: 434px;
-  }
+}
