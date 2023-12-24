@@ -1,5 +1,4 @@
 # ReactScreen
-## React + TypeScript + Vite
 
 <p>В данном проекте представлен экран, реализованный с помощью React + TypeScript + Vite.<p>
 
