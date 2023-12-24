@@ -7,7 +7,13 @@ const CardArticle: React.FC<ArticleInfo>= ({image, title, description}) => {
                 <img className="article-image" src={image}></img>
                 <h3 className="article-title" >{title}</h3>
                 <p className="article-desc">{description}</p>
-                <p className="read-more">Read more</p>
+                <p className="read-more">
+                    <a className = 'read-more-text' href='/'>
+                        Read more
+                        <img className='article-arrow'src ='/src/assets/images/arrow.svg'></img>
+                        </a>
+                    
+                    </p>
         </div>
     )
 }

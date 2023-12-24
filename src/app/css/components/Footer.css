@@ -1,0 +1,88 @@
+.footer{
+    margin: 0px;
+    display: flex;
+    margin-top: 200px;
+    width: 100%;
+    height: 430px;
+    background: linear-gradient(180deg, rgb(103, 195, 243) 0%, rgb(90, 152, 242) 100%);
+    overflow:hidden;
+  }
+  
+  .ellipse-footer {
+    margin-left: 191px;
+    margin-top: 118px;
+    width: 41px;
+    height: 41px;
+    background-color: #ffffff;
+    border-radius: 20.5px;
+    }
+  
+  .logo-letter-footer{
+    display: block;
+    margin-left: 13px;
+    margin-top: 4px;
+    width: 17px;
+    font-weight: 700;
+    color: #5b9bf3;
+    font-size: 26px;
+    letter-spacing: 0;
+    }
+  .title-footer{
+    margin-top: 124px;
+    margin-left: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .text-about-company{
+    margin-left: 190px;
+    width: 391px;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .footer-company{
+    margin-top: 31px;
+    margin-left: 190px;
+    width: 391px;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .catalog-footer{
+    margin-top: 118px;
+    margin-left: 145px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 50px;
+    white-space: nowrap;
+  }
+  
+  .list-links{
+    margin-left: 105px;
+    list-style-type:none;
+  }
+  
+  .list-links li a{
+    text-decoration: none;
+    font-weight: 300;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 38px;
+  }
+  
+  .wrap-elem-footer{
+    margin-bottom: 50px;
+  }

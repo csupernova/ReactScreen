@@ -1,6 +1,7 @@
 
 import ArticlesTitle from './ArticlesTitle.tsx'
 import CardArticle from './CardArticle.tsx'
+import '/src/app/css/components/Articles.css'
 import { useState } from 'react';
 
 interface ArticleProps<ArticleInfo>{

@@ -1,0 +1,37 @@
+.head{
+    display: flex;
+  }
+  
+  .ellipse {
+    margin-left: 191px;
+    margin-top: 51px;
+    width: 41px;
+    height: 41px;
+    background-color: #458ff6;
+    border-radius: 20.5px;
+    }
+  
+  .logo-letter{
+    display: block;
+    margin-left: 13px;
+    margin-top: 4px;
+    width: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 26px;
+    letter-spacing: 0;
+    }
+  
+  .title{
+    margin-top: 55px;
+    margin-left: 12px;
+    font-weight: 700;
+    color: #233248;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+  
+  .ellipse:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }

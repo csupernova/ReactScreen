@@ -1,5 +1,6 @@
 import '/src/app/css/App.css'
 import '/src/app/css/index.css'
+import '/src/app/css/components/Footer.css'
 
 const Footer: React.FC<{}>= () => {
 

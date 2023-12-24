@@ -1,0 +1,54 @@
+.provider{
+    display: flex;
+    margin-top: 220px;
+    margin-left: 135px;
+    margin-right: 192px;
+  }
+  
+  .left-side-provider{
+    display: block;
+    margin-right: 142px;
+  
+  }
+  
+  .wrap-divider-provider{
+    width:inherit;
+    margin-top: 26px;
+    margin-bottom: 33px;
+  }
+  
+  .provider-header{
+    width: 481px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 56px;
+  }
+  
+  .text-provider{
+    width: 450px;
+    font-weight: 300;
+    color: #7c7987;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .wrap-btn-provider{
+    width:inherit;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 26px;
+    margin-bottom: 33px;
+  
+  }
+  
+  .wrap-elem-provider{
+    display: flex;
+    width:inherit;
+    align-items:end;
+    justify-content: end;
+  
+  }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '/src/app/css/components/Slider.css'
 
 interface SliderProps<CommentInfo>{
     data: CommentInfo[]

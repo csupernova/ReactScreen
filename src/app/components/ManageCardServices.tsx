@@ -1,4 +1,5 @@
 import CardService from "./CardService";
+import '/src/app/css/components/Services.css'
 
 interface CardProps<CardInfo>{
     data: CardInfo[];
